@@ -23,8 +23,8 @@ Let’s try to dive into this dataset and let me denote the units of the followi
   11. Sunset: sunset time
 
 For the purpose of our challenge, the dataset was divided into:
-* "train_set.csv": (31051 entries) It contained the target feature and was used for training and model selection.
-* "test_set.csv": (1635 entries) It did not contain the target feature and was used to evaluate the final performance of the algorithm.
+* "train_set.csv": (31051 entries) It contains the target feature and was used for training and model selection.
+* "test_set.csv": (1635 entries) It does not contain the target feature and was used to evaluate the final performance of the algorithm.
  
  We decided to tackle the problem using a voting regressor, averaging the predictions of two decision tree-based models. 
  
